@@ -1,0 +1,64 @@
+table, th, td {
+    font-family: Calibri;
+    position: center;
+    border: 1px solid rgb(0, 0, 0);
+    width: 700px;
+    margin-top: 60px;
+    border-collapse: collapse;
+    }
+.title {
+    background-color: #8cca46;
+}
+
+/*Row and Column*/
+th, td {
+    padding: 15px;
+    }
+
+/*input fill*/
+input[type=text] {
+    font-family: Calibri;
+    font-size:15px;
+    padding:10px;
+    width:350px;
+    height: 20px ;
+    text-align: left;
+    padding-left:10px;
+    }
+
+/*submit button*/
+input[type=submit] {
+    font-family: Calibri;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    background-color: rgb(77, 126, 189);
+    font-size: 15px;
+    }
+
+/*Reset Button*/
+input[type=reset] {
+    font-family: Calibri;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    background-color: rgb(77, 126, 189);
+    font-size: 15px;
+    }
+
+/*Submit hover*/
+input[type=submit]:hover {
+    background-color: rgb(50, 177, 182);
+    }
+
+/*Reset hover*/
+input[type=reset]:hover {
+    background-color: rgb(50, 177, 182);
+    }
+
+/*Form click design*/
+input:focus {
+background-color: #FFFFFF;
+}
